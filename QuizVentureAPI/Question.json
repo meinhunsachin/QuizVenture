@@ -1,0 +1,651 @@
+  [
+    {
+      "category": "History",
+      "question": "Which war is known as the 'War of the Roses'?",
+      "options": [
+        "The Hundred Years' War",
+        "The English Civil War",
+        "The War of the Roses",
+        "The War of the Spanish Succession"
+      ],
+      "answer": "The War of the Roses"
+    },
+    {
+      "category": "History",
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington",
+        "James Madison"
+      ],
+      "answer": "George Washington"
+    },
+    {
+      "category": "History",
+      "question": "The Magna Carta was signed in which year?",
+      "options": [
+        "1215",
+        "1300",
+        "1492",
+        "1776"
+      ],
+      "answer": "1215"
+    },
+    {
+      "category": "History",
+      "question": "Where did the Industrial Revolution begin?",
+      "options": [
+        "France",
+        "United States",
+        "England",
+        "Germany"
+      ],
+      "answer": "England"
+    },
+    {
+      "category": "Art",
+      "question": "Who painted the famous mural 'The Last Supper'?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Vincent van Gogh"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "category": "Art",
+      "question": "Which art movement includes artists like Salvador Dali and René Magritte?",
+      "options": [
+        "Cubism",
+        "Surrealism",
+        "Impressionism",
+        "Baroque"
+      ],
+      "answer": "Surrealism"
+    },
+    {
+      "category": "Art",
+      "question": "Which sculptor created the statue of David?",
+      "options": [
+        "Leonardo da Vinci",
+        "Donatello",
+        "Michelangelo",
+        "Bernini"
+      ],
+      "answer": "Michelangelo"
+    },
+    {
+      "category": "Art",
+      "question": "Who is the artist behind the painting 'Starry Night'?",
+      "options": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Edgar Degas"
+      ],
+      "answer": "Vincent van Gogh"
+    },
+    {
+      "category": "Geography",
+      "question": "What is the capital city of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "answer": "Canberra"
+    },
+    {
+      "category": "Geography",
+      "question": "Which of these countries is NOT part of Scandinavia?",
+      "options": [
+        "Finland",
+        "Denmark",
+        "Sweden",
+        "Iceland"
+      ],
+      "answer": "Iceland"
+    },
+    {
+      "category": "Geography",
+      "question": "What is the world's largest ocean?",
+      "options": [
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "category": "Geography",
+      "question": "Which mountain range is located in South America?",
+      "options": [
+        "The Alps",
+        "The Himalayas",
+        "The Andes",
+        "The Rockies"
+      ],
+      "answer": "The Andes"
+    },
+    {
+      "category": "History",
+      "question": "The Great Wall of China was primarily built to?",
+      "options": [
+        "Protect against invaders",
+        "Control trade routes",
+        "Serve as a religious monument",
+        "Aid in agricultural irrigation"
+      ],
+      "answer": "Protect against invaders"
+    },
+    {
+      "category": "History",
+      "question": "Who was the first emperor of ancient Rome?",
+      "options": [
+        "Augustus",
+        "Julius Caesar",
+        "Constantine",
+        "Nero"
+      ],
+      "answer": "Augustus"
+    },
+    {
+      "category": "Art",
+      "question": "Which artist is famous for his melting clocks in paintings?",
+      "options": [
+        "Pablo Picasso",
+        "Salvador Dali",
+        "Vincent van Gogh",
+        "Claude Monet"
+      ],
+      "answer": "Salvador Dali"
+    },
+    {
+      "category": "Art",
+      "question": "Who painted the ceiling of the Sistine Chapel in the Vatican?",
+      "options": [
+        "Leonardo da Vinci",
+        "Raphael",
+        "Michelangelo",
+        "Donatello"
+      ],
+      "answer": "Michelangelo"
+    },
+    {
+      "category": "Geography",
+      "question": "Which river is the longest in the world?",
+      "options": [
+        "Amazon River",
+        "Nile River",
+        "Mississippi River",
+        "Yangtze River"
+      ],
+      "answer": "Nile River"
+    },
+    {
+      "category": "Geography",
+      "question": "Which country is the largest by land area?",
+      "options": [
+        "Russia",
+        "Canada",
+        "China",
+        "United States"
+      ],
+      "answer": "Russia"
+    },
+    {
+      "category": "History",
+      "question": "Who is credited with inventing the printing press?",
+      "options": [
+        "Johannes Gutenberg",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Leonardo da Vinci"
+      ],
+      "answer": "Johannes Gutenberg"
+    },
+    {
+      "category": "History",
+      "question": "The Treaty of Versailles marked the end of which war?",
+      "options": [
+        "World War I",
+        "World War II",
+        "The Cold War",
+        "The Franco-Prussian War"
+      ],
+      "answer": "World War I"
+    },
+    {
+      "category": "Sports",
+      "question": "Which country won the FIFA World Cup in 2018?",
+      "options": [
+        "France",
+        "Brazil",
+        "Germany",
+        "Argentina"
+      ],
+      "answer": "France"
+    },
+    {
+      "category": "Sports",
+      "question": "Who holds the record for the most Olympic gold medals?",
+      "options": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Larisa Latynina",
+        "Carl Lewis"
+      ],
+      "answer": "Michael Phelps"
+    },
+    {
+      "category": "Sports",
+      "question": "Which sport is known as the 'king of sports'?",
+      "options": [
+        "Soccer",
+        "Basketball",
+        "Cricket",
+        "Tennis"
+      ],
+      "answer": "Soccer"
+    },
+    {
+      "category": "Sports",
+      "question": "What is the diameter of a basketball hoop in inches?",
+      "options": [
+        "16 inches",
+        "18 inches",
+        "20 inches",
+        "22 inches"
+      ],
+      "answer": "18 inches"
+    },
+    {
+      "category": "Sports",
+      "question": "In which year did Serena Williams win her first Grand Slam singles title?",
+      "options": [
+        "1999",
+        "2002",
+        "2005",
+        "2009"
+      ],
+      "answer": "1999"
+    },
+    {
+      "category": "Sports",
+      "question": "What is the national sport of Japan?",
+      "options": [
+        "Sumo wrestling",
+        "Karate",
+        "Judo",
+        "Kendo"
+      ],
+      "answer": "Sumo wrestling"
+    },
+    {
+      "category": "Sports",
+      "question": "Which team won the 2019 NBA Championship?",
+      "options": [
+        "Golden State Warriors",
+        "Los Angeles Lakers",
+        "Toronto Raptors",
+        "Boston Celtics"
+      ],
+      "answer": "Toronto Raptors"
+    },
+    {
+      "category": "Sports",
+      "question": "Who won the 2021 Wimbledon Men's Singles title?",
+      "options": [
+        "Novak Djokovic",
+        "Roger Federer",
+        "Rafael Nadal",
+        "Andy Murray"
+      ],
+      "answer": "Novak Djokovic"
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are there on a baseball team?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": "9"
+    },
+    {
+      "category": "Sports",
+      "question": "What is the maximum number of clubs that can be used in a golf round according to USGA rules?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": "14"
+    },
+    {
+      "category": "Sports",
+      "question": "Who is the all-time leading scorer in the NBA?",
+      "options": [
+        "LeBron James",
+        "Kareem Abdul-Jabbar",
+        "Kobe Bryant",
+        "Michael Jordan"
+      ],
+      "answer": "Kareem Abdul-Jabbar"
+    },
+    {
+      "category": "Sports",
+      "question": "What is the maximum time allowed to box in an Olympic boxing match?",
+      "options": [
+        "2 minutes",
+        "3 minutes",
+        "4 minutes",
+        "5 minutes"
+      ],
+      "answer": "3 minutes"
+    },
+    {
+      "category": "Sports",
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "options": [
+        "Brazil",
+        "China",
+        "United States",
+        "Russia"
+      ],
+      "answer": "Brazil"
+    },
+    {
+      "category": "Sports",
+      "question": "Who won the 2020 UEFA European Championship (Euro 2020)?",
+      "options": [
+        "Italy",
+        "England",
+        "France",
+        "Portugal"
+      ],
+      "answer": "Italy"
+    },
+    {
+      "category": "Sports",
+      "question": "Which athlete set a world record in the men's 100 meters at the 2009 World Championships in Berlin?",
+      "options": [
+        "Usain Bolt",
+        "Tyson Gay",
+        "Yohan Blake",
+        "Justin Gatlin"
+      ],
+      "answer": "Usain Bolt"
+    },
+    {
+      "category": "Science",
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        "Go",
+        "Au",
+        "GoL",
+        "Ag"
+      ],
+      "answer": "Au"
+    },
+    {
+      "category": "Science",
+      "question": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Endoplasmic Reticulum"
+      ],
+      "answer": "Mitochondria"
+    },
+    {
+      "category": "Science",
+      "question": "Which planet is known as the 'Red Planet'?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Mars"
+    },
+    {
+      "category": "Science",
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Skin",
+        "Brain"
+      ],
+      "answer": "Skin"
+    },
+    {
+      "category": "Science",
+      "question": "What is the chemical formula for water?",
+      "options": [
+        "CO2",
+        "H2O",
+        "NaCl",
+        "O2"
+      ],
+      "answer": "H2O"
+    },
+    {
+      "category": "Science",
+      "question": "Which scientist developed the theory of general relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Stephen Hawking",
+        "Nikola Tesla"
+      ],
+      "answer": "Albert Einstein"
+    },
+    {
+      "category": "Science",
+      "question": "Which gas do plants use to produce their food?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "category": "Science",
+      "question": "What unit is used to measure electric resistance?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "answer": "Ohm"
+    },
+    {
+      "category": "Science",
+      "question": "What type of joint is the elbow?",
+      "options": [
+        "Ball and Socket Joint",
+        "Hinge Joint",
+        "Pivot Joint",
+        "Gliding Joint"
+      ],
+      "answer": "Hinge Joint"
+    },
+    {
+      "category": "Science",
+      "question": "What causes tides in the oceans?",
+      "options": [
+        "Gravity from the Sun",
+        "Earth's Rotation",
+        "Atmospheric Pressure",
+        "Gravity from the Moon"
+      ],
+      "answer": "Gravity from the Moon"
+    },
+    {
+      "category": "Science",
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Diamond",
+        "Iron",
+        "Quartz",
+        "Tungsten"
+      ],
+      "answer": "Diamond"
+    },
+    {
+      "category": "Science",
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": "Newton"
+    },
+    {
+      "category": "Science",
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": "Nitrogen"
+    },
+    {
+      "category": "Science",
+      "question": "What type of energy is stored in batteries?",
+      "options": [
+        "Kinetic Energy",
+        "Potential Energy",
+        "Chemical Energy",
+        "Nuclear Energy"
+      ],
+      "answer": "Chemical Energy"
+    },
+    {
+      "category": "Science",
+      "question": "What is the unit of measurement for frequency?",
+      "options": [
+        "Hertz",
+        "Watt",
+        "Joule",
+        "Ampere"
+      ],
+      "answer": "Hertz"
+    },
+    {
+      "category": "Science",
+      "question": "What is the smallest particle of an element that retains its properties?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Neutron",
+        "Electron"
+      ],
+      "answer": "Atom"
+    },
+    {
+      "category": "Science",
+      "question": "What causes the sky to appear blue?",
+      "options": [
+        "Reflection",
+        "Scattering of Light",
+        "Absorption",
+        "Refraction"
+      ],
+      "answer": "Scattering of Light"
+    },
+    {
+      "category": "Science",
+      "question": "Who is known as the father of modern chemistry?",
+      "options": [
+        "Antoine Lavoisier",
+        "Isaac Newton",
+        "Gregor Mendel",
+        "Robert Hooke"
+      ],
+      "answer": "Antoine Lavoisier"
+    },
+    {
+      "category": "Science",
+      "question": "What does DNA stand for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dinucleic Acid",
+        "Deoxyribose Nucleotide Assembly",
+        "Deoxyribonucleic Alloy"
+      ],
+      "answer": "Deoxyribonucleic Acid"
+    },
+    {
+      "category": "Science",
+      "question": "What is the process by which plants make their food called?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Digestion",
+        "Assimilation"
+      ],
+      "answer": "Photosynthesis"
+    },
+    {
+      "category": "Science",
+      "question": "Which of these is not a primary color of light?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "answer": "Yellow"
+    },
+    {
+      "category": "Science",
+      "question": "Who formulated the laws of motion?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Nikola Tesla"
+      ],
+      "answer": "Isaac Newton"
+    },
+    {
+      "category": "Science",
+      "question": "What is the study of earthquakes called?",
+      "options": [
+        "Meteorology",
+        "Geology",
+        "Seismology",
+        "Volcanology"
+      ],
+      "answer": "Seismology"
+    },
+    {
+      "category": "Science",
+      "question": "Which metal is liquid at room temperature?",
+      "options": [
+        "Silver",
+        "Copper",
+        "Mercury",
+        "Gold"
+      ],
+      "answer": "Mercury"
+    }
+  ]

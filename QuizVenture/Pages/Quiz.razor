@@ -1,0 +1,117 @@
+@page "/main"
+@using System.Net.Http
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@using Microsoft.JSInterop;
+@using Newtonsoft.Json
+
+<style>
+  
+  button{
+    margin-left: 10px;
+    border-radius: 13%;
+  }
+</style>
+<h1>Quiz Time!</h1>
+<EditForm Model="@responseModel">
+  @if (question != null)
+  {
+    <div class="question">
+      <p>@question</p>
+      @foreach (var option in options)
+      {
+        <label
+          class="@(option == selectedOption && option == correctAnswer ? "correct" : option == selectedOption && option != correctAnswer ? "incorrect" : "")">
+          <input type="radio" class="radio" name="selectedOption" value="@option" @oninput="e => selectedOption = e.Value.ToString()">
+          @option
+        </label>
+        <br/>
+      }
+    </div>
+  }
+  @if (selectedOption!="")
+  {
+    <button type="button" @onclick="HandleSubmitButton" class="btn btn-primary">Submit</button>
+  }
+  @if (isCorrect == true)
+  {
+    <button type="button" @onclick="HandleNextButton" class="btn btn-success">Next</button>
+  }
+  @if(letsStart==true){
+    <button type="button" @onclick="HandleNextButton" class="btn btn-danger">Ready</button>
+  }
+  <button type="button" @onclick="NavigateBack" class="btn btn-dark">Go Back</button>
+</EditForm>
+
+@code {
+  private string question;
+  private List<string> options = new List<string>();
+  private string selectedOption="";
+  private string correctAnswer;
+  private bool? isCorrect = false;
+  private bool? letsStart = true;
+  private ApiResponseModel responseModel = new ApiResponseModel();
+
+  private async Task HandleSubmitButton()
+  {
+    StateHasChanged();
+    letsStart = false;
+    if (selectedOption != null && selectedOption.Equals(correctAnswer, StringComparison.OrdinalIgnoreCase))
+    {
+      isCorrect = true;
+      await JSRuntime.InvokeVoidAsync("alert", "Correct Answer!");
+    }
+    else
+    {
+      isCorrect = false;
+      await JSRuntime.InvokeVoidAsync("alert", "Incorrect Answer!");
+    }
+  }
+
+  private async Task HandleNextButton()
+  {
+    selectedOption = "";
+    responseModel = new ApiResponseModel();
+    StateHasChanged();
+    try
+    {
+      using HttpClient httpClient = new HttpClient();
+      var response = await httpClient.GetStringAsync("http://localhost:5258/api/Quiz/Random");
+      var apiResponse = JsonConvert.DeserializeObject<ApiResponseModel>(response);
+      if (apiResponse != null)
+      {
+        question = apiResponse.question;
+        options = apiResponse.options;
+        correctAnswer = apiResponse.answer;
+        isCorrect = false;
+      }
+      else
+      {
+        Console.WriteLine("Invalid API response.");
+      }
+    }
+    catch (HttpRequestException ex)
+    {
+      // Handle HTTP request error
+      Console.WriteLine("Error: " + ex.Message);
+    }
+    catch (Exception ex)
+    {
+      // Handle other exceptions
+      Console.WriteLine("Error: " + ex.Message);
+    }
+  }
+
+  private void NavigateBack()
+  {
+    NavigationManager.NavigateTo("/");
+  }
+
+  public class ApiResponseModel
+  {
+    public string question { get; set; }
+    public List<string> options { get; set; }
+    public string category { get; set; }
+    public string answer { get; set; }
+  }
+}

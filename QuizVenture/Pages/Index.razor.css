@@ -1,0 +1,108 @@
+﻿
+* {
+    font-family:Arial;
+    margin: 0;
+    padding: 0;
+    /*display: flex;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    align-items:center;
+    justify-content:center;*/
+}
+.mainDiv {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, #1abc9c, #f1c40f);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 5vh; /* Adjust as needed for vertical centering */
+}
+.Heading {
+    font-size: 38px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 50px;
+   
+}
+.Page {
+    font-size: 14px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom:40px;
+
+}
+
+.Hello {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 20px; /* Adjust the radius for the desired level of rounding */
+    background-color: #3498db; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Font size */
+    cursor: pointer;
+    
+}
+/* Your existing CSS */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    position: relative;
+    top:55px;
+    width:50%;
+}
+
+.left-icon,
+.center-icon,
+.right-icon {
+    margin:5px 5px ;
+    padding:5px 15px;
+    width:50px;
+    position:relative;
+ 
+
+}
+
+.dailyChallenge, .event {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Adjust the radius for the desired level of rounding */
+    background-color: #3498db; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 0px; /* Font size */
+    cursor: pointer;
+}
+
+.dailyChallenge {
+    width:35% ;
+    float: revert;
+    padding: 15px;
+    margin-right: auto;
+    position:relative;
+    top:-45px;
+    left:40px;
+
+}
+.event {
+    border: 1px solid #ccc;
+    margin: 30px ;
+    padding:40px;
+    background: linear-gradient(to bottom, #8e44ad, #c0392b); /* Purple gradient */
+    color: #fff;
+    position:relative;
+    top:-60px;
+    left:70px;
+}

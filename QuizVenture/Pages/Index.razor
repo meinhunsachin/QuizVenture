@@ -1,0 +1,16 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<div class="mainDiv">
+    <h1 class="Heading">QuizVenture</h1>
+    <p class="Page">Trivia at Your Fingertips</p>
+    <button class="Hello" @onclick="NavigateToMainPage">Start</button>
+</div>
+
+@code {
+    private void NavigateToMainPage()
+    {
+        NavigationManager.NavigateTo("/main");
+    }
+}
